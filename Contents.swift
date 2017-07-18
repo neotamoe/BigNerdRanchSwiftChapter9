@@ -111,4 +111,13 @@ for item in toDoList.reversed() {
 }
 
 
-
+// GOLD Challenge: find a method on Array that will locate the index of "Fly hot air balloon."  
+// Use it to compute the index two positions later in the array.  
+// Use the new index to find the String at that position in your bucketList.
+// GOLD Challenge
+if var bucketSpot = bucketList.index(of: "Fly hot air balloon"){
+    print(bucketSpot)
+    print(bucketList[bucketSpot])
+    bucketSpot += 2
+    print(bucketList[bucketSpot])
+}
